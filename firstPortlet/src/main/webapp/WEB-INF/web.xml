@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+                         "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <display-name>FortunePortlet</display-name>
+
+    <description>Automated generated Application Wrapper</description>
+
+    <servlet>
+        <servlet-name>firstPortlet</servlet-name>
+        <display-name>firstPortlet Portlet</display-name>
+        <description>Generated Portlet Wrapper</description>
+        <servlet-class>org.apache.pluto.core.PortletServlet</servlet-class>
+
+        <init-param>
+            <param-name>portlet-class</param-name>
+            <param-value>com.schakr.firstPortlet</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>firstPortlet</servlet-name>
+        <url-pattern>/firstPortlet/*</url-pattern>
+    </servlet-mapping>
+
+    <taglib>
+        <taglib-uri>http://java.sun.com/portlet</taglib-uri>
+        <taglib-location>/WEB-INF/tld/portlet.tld</taglib-location>
+    </taglib>
+</web-app>
